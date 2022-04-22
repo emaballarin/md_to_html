@@ -5,7 +5,7 @@ if ($args[0])
     $input_path = $args[0]
 }
 
-pandoc -s $input_path -c style.css -o output.html --metadata-file meta.yml --from markdown+emoji --mathjax
+pandoc -s $input_path -c https://gitcdn.link/cdn/emaballarin/md_to_html/main/style.css -o output.html --metadata-file meta.yml --from markdown+emoji --mathjax
 
 if ($args[1])
 {
