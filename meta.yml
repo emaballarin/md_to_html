@@ -1,0 +1,13 @@
+header-includes: |
+    <link rel="icon" type="image/x-icon" href="https://ballarin.cc/cdn/ai2s_favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready
+        (
+            function()
+            {
+                twemoji.parse(document.body);
+            }
+        );
+    </script>
